@@ -14,7 +14,7 @@ class MainViewModel: ViewModel() {
         val error: String? = null
     )
 
-    private val _categoriesState= mutableStateOf(RecipeState())
+    private val _categoriesState = mutableStateOf(RecipeState())
     val categoriesState: State<RecipeState> = _categoriesState
 
     init {
